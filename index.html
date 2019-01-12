@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<title>FlowerGallery-home</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1 {font-family: "Montserrat", sans-serif}
+img {margin-bottom: -7px}
+.w3-row-padding img {margin-bottom: 12px}
+</style>
+<body>
+
+<!-- Sidebar -->
+<nav class="w3-sidebar w3-black w3-animate-top w3-xxlarge" style="display:none;padding-top:150px" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-black w3-xxlarge w3-padding w3-display-topright" style="padding:6px 24px">
+    <i class="fa fa-remove"></i>
+  </a>
+  <div class="w3-bar-block w3-center">
+    <a href="about.html" class="w3-bar-item w3-button w3-text-grey w3-hover-black ">About</a>
+	
+    
+    <a href="style.html" class="w3-bar-item w3-button w3-text-grey w3-hover-black about.html">Home</a>
+    <a href="contact.html" class="w3-bar-item w3-button w3-text-grey w3-hover-black about.html">Contact</a>
+  </div>
+</nav>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-content" style="max-width:1500px">
+
+<!-- Header -->
+<div class="w3-opacity">
+<span class="w3-button w3-xxlarge w3-white w3-right" onclick="w3_open()"><i class="fa fa-bars"></i></span> 
+<div class="w3-clear"></div>
+<header class="w3-center w3-margin-bottom">
+  <h1 style="color:blue; font-size:300%; font-family: verdana;"><b>Flower Gallery</b></h1>
+  <p style="font-size:160;"><b> Welcome to flower gallery.You can check out the information of all fowers by simply clicking on it.Thank you!</b></p>
+  
+</header>
+</div>
+
+<!-- Photo Grid -->
+
+  
+<a href="aconite.html">
+
+<img src="images\Pic1.jpg" width="300px" height="180px" >
+
+</a>
+<a href="ageratum.html">
+<img src="images\Pic2.jpg" width="300px" height="180px">
+</a>
+<a href="allium.html">
+<img src="images\Pic3.jpg" width="300px" height="180px">
+</a>
+<a href="alstromeria.html">
+<img src="images\Pic4.jpg" width="300px" height="180px">
+</a>
+<a href="bergenia.html">
+<img src="images\Pic5.jpg"width="300px" height="180px">
+</a>
+  <a href="anemone.html">
+<img src="images\Pic6.jpg" width="300px" height="180px">
+</a>
+<a href="angelica.html"> 
+<img src="images\Pic7.jpg" width="300px" height="180px">
+</a>
+<a href="angelonia.html">
+<img src="images\Pic8.jpg" width="300px" height="180px">
+</a>
+<a href="aetemisia.html">
+<img src="images\Pic9.jpg" width="300px" height="180px">
+</a>
+<a href="aster.html">
+<img src="images\Pic10.jpg" width="300px" height="180px">
+</a>
+   
+    <a href="astilbe.html">
+<img src="images\Pic11.jpg" width="300px" height="180px">
+</a>
+<a href="aubrieta.html">
+<img src="images\Pic12.jpg" width="300px" height="180px">
+</a>
+<a href="alyssum.html">
+<img src="images\Pic13.jpg" width="300px" height="180px">
+</a>
+<a href="balloon flower.html">
+<img src="images\Pic14.jpg" width="300px" height="180px">
+</a>
+<a href="balsam.html">
+<img src="images\Pic15.jpg" width="300px" height="180px">
+</a>
+<a href="baneberry.html">
+  <img src="images\Pic16.jpg" width="300px" height="180px">
+</a>
+<a href="basket of gold.html">
+<img src="images\Pic17.jpg" width="300px" height="180px">
+</a>
+<a href="beebalm.html">
+<img src="images\Pic18.jpg" width="300px" height="180px">
+</a>
+
+<a href="beliflower.html">
+<img src="images\Pic20.jpg" width="300px" height="180px">
+</a>
+
+<a href="bloodroot.html">
+<img src="images\Pic21.jpg" width="300px" height="180px">
+</a>
+<a href="backeyedsuzan.html">
+<img src="images\Pic22.jpg" width="300px" height="180px">
+</a>
+<a href="bleedingheart.html">
+<img src="images\Pic23.jpg" width="300px" height="180px">
+</a>
+
+
+<!-- End Page Content -->
+</div>
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-light-grey w3-center w3-opacity w3-xlarge" style="margin-top:128px"> 
+  <i class="fa fa-facebook-official w3-hover-opacity"></i>
+  <i class="fa fa-instagram w3-hover-opacity"></i>
+  <i class="fa fa-snapchat w3-hover-opacity"></i>
+  <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+  <i class="fa fa-twitter w3-hover-opacity"></i>
+  <i class="fa fa-linkedin w3-hover-opacity"></i>
+  <p class="w3-medium">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+</footer>
+ 
+<script>
+// Toggle grid padding
+function myFunction() {
+  var x = document.getElementById("myGrid");
+  if (x.className === "w3-row") {
+    x.className = "w3-row-padding";
+  } else { 
+    x.className = x.className.replace("w3-row-padding", "w3-row");
+  }
+}
+
+// Open and close sidebar
+function w3_open() {
+  document.getElementById("mySidebar").style.width = "100%";
+  document.getElementById("mySidebar").style.display = "block";
+}
+
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+
+</body>
+</html>
